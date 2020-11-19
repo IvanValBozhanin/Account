@@ -44,7 +44,7 @@ public class Account {
         return balance*getMonthlyInterestRate();
     }
 
-    public double getMonthlyInterestRate(){
+    public static double getMonthlyInterestRate(){
         return yearInterestRate / 12;
     }
 
